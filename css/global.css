@@ -17,10 +17,14 @@ header h2 a {
     height: 77px;
 }
 
+.container{
+    width: 100%;
+}
+
 header nav ul {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     align-content: center;
     height: 100%;
     margin: 0 0 20px;
@@ -47,7 +51,7 @@ footer {
 }
 
 footer h2 a {
-    display: block;
+    display: inline-block;
     color: transparent;
     background: url(../img/logo-header.png) 0 0 no-repeat;
     width: 312px;
@@ -61,6 +65,7 @@ footer ul {
 
 footer ul li {
     list-style: none;
+    display: flex;
 }
 
 footer a {
@@ -69,4 +74,13 @@ footer a {
     font-size: 20px;
     font-weight: 400;
     text-transform: lowercase;
+}
+
+.links-anexos a{
+    border: 2px solid white;
+    border-radius: 62px;
+    padding: 14px 51px;
+    display: block;
+    margin: 0 0 14px;
+    text-align: center;
 }
